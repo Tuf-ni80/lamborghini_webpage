@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="filename.js"></script>
+    <title>FEEDBACK</title>
+    <style>
+      
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=Button] {
+          background-color: #020303;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=Button]:hover {
+          background-color: #45a049;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        footer {
+          text-align: center;
+          padding: 40px;
+          background-color: rgb(6, 6, 6);
+          
+        }
+        </style>
+</head>
+<body>
+  
+    <h1>FEEDBACK</h1>
+    <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="">--Please Select A Country --</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">CHINA</option>
+            <option value="usa">HONG KONG AND MAKAU</option>
+            <option value="usa">INDIA</option>
+            <option value="usa">JAPAN</option>
+            <option value="usa">INDIA</option>
+            <option value="usa">CHINA</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          
+          <input type="Button" value="Submit" onclick="msg()" />
+        </form>
+      </div>
+      <footer>
+  
+        <!--<a href="mailto:hege@example.com">hege@example.com</a></p>-->
+        
+        <!--<a href="#" class="fa fa-linkedin"></a>-->
+        <a href="Home.html" target="_blank" rel="noopener noreferrer">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="feedback.html" target="_blank" rel="noopener noreferrer">FEEDBCK</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="Contactus.html" target="_blank" rel="noopener noreferrer">CONTACT US</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/sandeep-aurora-629b48227/" target="_blank" rel="noopener noreferrer"> Linkedin</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="https://www.instagram.com/sandeepaurora/" target="_blank" rel="noopener noreferrer"> Instagram</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a href="https://www.facebook.com/profile.php?id=100033631277606" target="_blank" rel="noopener noreferrer"> Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      </footer>
+</body>
+</html>
